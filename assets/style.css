@@ -7,7 +7,12 @@
     font-family:Arial;
     color:white;
     /* Boarder is for aligning items and testing comment out to see boarders */
-    border:solid white;
+    /* border:solid white; */
+}
+
+article{
+    flex-wrap:wrap;
+    padding:2%;
 }
 
 header{
@@ -25,9 +30,13 @@ header h1{
 
 }
 
-.firstname {
+.redletter {
     color:red;
     background:rgb(50, 50, 50, 50);
+}
+
+.redletter2{
+    color:red;
 }
 
 nav li{
@@ -42,14 +51,16 @@ nav li{
     margin-right:10px;
 }
 
-nav li:hover{
-    color:white;
+nav a{
+    color:darkgrey;
+}
+
+nav a:hover{
+    color:red;
     transition-duration:1s;
 }
 
-article{
-    flex-wrap:wrap;
-}
+
 
 #aboutme{
     border-bottom: solid red
@@ -58,13 +69,18 @@ article{
 
 .article img{
     width:49%;
-    margin:2.45% 2.45% 2.45% 2.45%
-    border: solid red
+    /* margin:2.45% 2.45% 2.45% 2.45%; */
+    border:solid red;
+}
+
+.article img:hover{
+    border:solid white;
+    transition-duration:1s;
 }
 
 .article h2{
     color:white;
-    margin: 2% 2.45% 0 2.45%;
+    margin: 2% 2.45% 0% 2.45%;
     /* display:inline-block; */
 }
 
@@ -77,19 +93,92 @@ article{
 
 .test1{
     width:100%;
-    height:300px;
+    height:220px;
+    border-bottom:solid red
 }
 
 .photocontent{
     display:flexbox:inline-block;
     height:200px;
-    width:45%;
+    width:400px;
     margin:0% 2.45% 0% 2.45%;
 }
 
+.photocontent h2{
+    Margin-bottom:5%;
+}
+
 .test1 img{
-    margin:2.45% 2.45% 0 2.45%;
+    margin:0% 7.45% 0 2.45%;
     float:right;
     width:400px;
 }
+
+.card-base{
+    display:flex;
+    Width:100%;
+    height:300px;
+    overflow:auto;
+    justify-content:space-around;
+    flex-wrap:wrap;
+    border-bottom:solid red;
+    
+}
+
+.card1{
+    width:27%;
+    height:auto;
+    display:inline-block;
+    padding:2%;
+}
+
+.card1 h3{
+    margin-bottom:5%;
+    font-weight:bold;
+}
+
+.card1 img{
+    border:solid red;
+    width:100%
+}
+
+.contactlinks{
+    display:flex;
+    justify-content:space-evenly;
+
+}
+
+.contactlinks li:hover{
+    color:red;
+    transition-duration:1s;
+}
+
+.ContactMe{
+    display:block;
+    width:100%;
+    height:200px;
+    padding:2%;
+    text-align:center;
+    border-bottom:solid red;
+}
+
+.ContactMe h2{
+    margin-bottom:2.45%
+}
+
+.ContactMe P{
+    Margin-bottom:2.45%
+}
+
+footer{
+    font-size:8px;
+    text-align:center;
+}
+
+footer:hover{
+    color:red;
+    transition-duration:1s;
+}
+
+
 
