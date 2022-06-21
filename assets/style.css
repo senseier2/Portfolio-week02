@@ -1,34 +1,114 @@
+/* Basic Styling for page */
 * {
-    background-color:;
+    background-color:black;
     box-sizing:border-box;
     margin: 0px;
     padding:0px;
+    font-family:Arial;
+    color:white;
+    /* Boarder is for aligning items and testing comment out to see boarders */
+    border:solid white;
 }
 
 header{
-    background-color:darkgrey;
+    background-color:rgb(50, 50, 50);
     width:100%;
 }
 
-header nav{
+
+header h1{
+    background-color:rgb(50, 50, 50);
+    font-size:48px;
+    height:100px;
+    color:white;
 
 }
 
-header h1{
-    background-color:darkgrey;
-    font-size:48px;
-    height:90px;
-    display:inline-block
+.firstname {
+    color:darkred;
+    background:rgb(50, 50, 50, 50);
 }
 
 nav li{
+    background-color:rgb(40, 40, 40);
     font-family:Arial, Helvetica, sans-serif;
     Font-Size:24px;
     font-weight:bold; 
-    margin-right: 10px;
-    display:inline-block;
-    justify-items:flex-end;
+    display: inline-block;
+    float:right;
+    color:darkgrey;
+    margin-right:10px;
 }
+
+nav li:hover{
+    color:white;
+    transition-duration:1s;
+}
+
+article{
+    flex-wrap:wrap;
+}
+
+
+.article img{
+    width:50%;
+    margin:20px;
+}
+
+.article h2{
+    color:white;
+    margin:0px 20px 0px 20px;
+    /* display:inline-block; */
+}
+
+.article p{
+    color:white;
+    font-size:1rem;
+    margin: 0px 20px 0px 20px;
+    /* display:inline-block; */
+}
+
+.test1 img{
+    margin-right:20px;
+    margin-top:60px;
+    float:right;
+    width:50%;
+}
+
+.test1 h2{
+    margin-left:20px;
+    margin-top:10px;
+}
+
+.test1 p{
+    display:inline-block;
+    height:200px;
+    width:40%;
+    margin:20px;
+}
+
+.test2 img{
+    margin-right:20px;
+    margin-top:60px;
+    float:right;
+    width:50%;
+}
+
+.test2 h2{
+    margin-left:20px;
+    margin-top:10px;
+}
+
+.test2 p{
+    display:inline-block;
+    height:200px;
+    width:40%;
+    margin:20px;
+}
+
+
+
+
 
 
 
