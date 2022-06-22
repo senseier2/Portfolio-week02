@@ -24,10 +24,10 @@ header{
 
 header h1{
     background-color:rgb(50, 50, 50);
-    font-size:48px;
+    font-size:72px;
     height:100px;
     color:white;
-
+    margin-left:1%;
 }
 
 .redletter {
@@ -53,6 +53,7 @@ nav li{
 
 nav a{
     color:darkgrey;
+    text-decoration: none;
 }
 
 nav a:hover{
@@ -106,6 +107,7 @@ nav a:hover{
 
 .photocontent h2{
     Margin-bottom:5%;
+    text-decoration: none;
 }
 
 .test1 img{
@@ -113,6 +115,11 @@ nav a:hover{
     float:right;
     width:50%;
     border:solid red;
+}
+
+.test1 img:hover{
+    color:solid white;
+    transition-duration: 1s;
 }
 
 .card-base{
@@ -128,13 +135,13 @@ nav a:hover{
 
 .card1{
     width:27%;
-    height:auto;
+    height:200px;
     display:inline-block;
     padding:2%;
 }
 
 .card1 h3{
-    margin-bottom:5%;
+    margin-bottom:2%;
     font-weight:bold;
 }
 
@@ -144,7 +151,7 @@ nav a:hover{
 }
 
 .card1 img:hover{
-    border:white;
+    border:solid white;
     transition-duration:1s;
 }
 
@@ -186,5 +193,10 @@ footer:hover{
     transition-duration:1s;
 }
 
-
+@media only screen and (max-width: 972px) {
+    * {
+      background-color:darkred;
+      transition-duration: 3s;
+    }
+  }
 
