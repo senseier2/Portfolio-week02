@@ -68,7 +68,7 @@ nav a:hover{
 
 
 .article img{
-    width:49%;
+    width:50%;
     /* margin:2.45% 2.45% 2.45% 2.45%; */
     border:solid red;
 }
@@ -111,13 +111,14 @@ nav a:hover{
 .test1 img{
     margin:0% 7.45% 0 2.45%;
     float:right;
-    width:400px;
+    width:50%;
+    border:solid red;
 }
 
 .card-base{
     display:flex;
     Width:100%;
-    height:300px;
+    height:350px;
     overflow:auto;
     justify-content:space-around;
     flex-wrap:wrap;
@@ -142,13 +143,18 @@ nav a:hover{
     width:100%
 }
 
+.card1 img:hover{
+    border:white;
+    transition-duration:1s;
+}
+
 .contactlinks{
     display:flex;
     justify-content:space-evenly;
 
 }
 
-.contactlinks li:hover{
+.contactlinks a:hover{
     color:red;
     transition-duration:1s;
 }
