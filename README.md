@@ -5,7 +5,7 @@ Building a responsive portfolio website for the client that displays their biogr
 
 The menu has some hover elements so that the colors transition a bit to highlight user input.
 
-![](assets/Menu%20image.JPG)
+![Hello](assets/Menu%20image.JPG)
 
 
 Here is a screenshot of the overall page look and feel
