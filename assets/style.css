@@ -1,11 +1,11 @@
 /* Basic Styling for page allows for overall padding and font family*/
 * {
-    background-color:black;
+    background-color:white;
     box-sizing:border-box;
     margin: 0px;
     padding:0px;
     font-family:Arial;
-    color:white;
+    color:black;
     /* Boarder is for aligning items and testing comment out to see boarders */
     /* border:solid white; */
 }
@@ -19,7 +19,7 @@ article{
 /* Dividing line for section and background color for header section */
 header{
     background-color:rgb(50, 50, 50);
-    border-bottom:solid red;
+    border-bottom:solid black;
     width:100%;
 }
 
@@ -28,7 +28,7 @@ header h1{
     background-color:rgb(50, 50, 50);
     font-size:72px;
     height:100px;
-    color:white;
+    color:White;
     margin-left:1%;
 }
 
@@ -45,26 +45,23 @@ header h1{
 
 /* Navigation items setup font color and styling */
 nav li{
-    background-color:black;
     font-family:Arial, Helvetica, sans-serif;
-    Font-Size:24px;
+    Font-Size:1.6rem;
     font-weight:bold; 
     display: inline-block;
-    border-top:solid red;
-    float:right;
-    color:darkgrey;
+    float: right;
     margin-right:10px;
+    text-decoration: none;
 }
 
 /* Styling for navigation anchor tags */
 nav a{
-    color:darkgrey;
-    text-decoration: none;
+    color:black;
 }
 
 /* Hover styling for navigation a tags with smooth transition */
 nav a:hover{
-    color:red;
+    color:black;
     transition-duration:1s;
 }
 
@@ -72,14 +69,16 @@ nav a:hover{
 /* ID used to locate this div when clicked in the navigation */
 /* Also used to provide the red divider */
 #aboutme{
-    border-bottom: solid red
+    border-bottom: solid black;
+    color: black;
 }
 
 /* Main article image styling and border */
 .article img{
-    width:50%;
+    width:35%;
     /* margin:2.45% 2.45% 2.45% 2.45%; */
-    border:solid red;
+    border:solid black;
+    border-radius: 180px;
 }
 
 /* Article image hover smooth transition */
@@ -97,10 +96,8 @@ nav a:hover{
 
 /* Article p tag styling font size testing left in place as there were no issues */
 .article p{
-    color:white;
     font-size:1rem;
     margin: 0 2.45% 2% 2.45%;
-    /* display:inline-block; */
 }
 
 /* Testing flex properties on the photo float created */
@@ -108,12 +105,12 @@ nav a:hover{
 .test1{
     width:100%;
     height:220px;
-    border-bottom:solid red
+    border-bottom:solid black
 }
 
 /* Flexbox setup for Photo float div formatting added here */
 .photocontent{
-    display:flexbox:inline-block;
+    display:flexbox;
     height:200px;
     width:400px;
     margin:0% 2.45% 0% 2.45%;
@@ -147,7 +144,7 @@ nav a:hover{
     overflow:auto;
     justify-content:space-around;
     flex-wrap:wrap;
-    border-bottom:solid red;
+    border-bottom:solid black;
     
 }
 
@@ -167,7 +164,7 @@ nav a:hover{
 
 /* Card image border and width for card placement */
 .card1 img{
-    border:solid red;
+    border:solid black;
     width:100%
 }
 
@@ -187,7 +184,7 @@ nav a:hover{
 /* Contact links hover styling and smooth transition */
 .contactlinks a:hover{
     color:red;
-    transition-duration:1s;
+    transition-duration:.3s;
 }
 
 /* Contact card overall styling and base font information  */
@@ -197,7 +194,7 @@ nav a:hover{
     height:200px;
     padding:2%;
     text-align:center;
-    border-bottom:solid red;
+    border-bottom:solid black;
 }
 
 /* Contacts h2 margin for spacing with p tag content */
