@@ -7,13 +7,13 @@
     font-family:Arial;
     color:black;
     /* Boarder is for aligning items and testing comment out to see boarders */
-    border:solid black;
+    /* border:solid black; */
 }
 
 /* Adding the method of content alignment and additional padding for this div */
 article{
     flex-wrap:wrap;
-    padding:2%;
+    /* padding:2%; */
 }
 
 /* Dividing line for section and background color for header section */
@@ -74,9 +74,9 @@ nav a:hover{
 }
 
 /* Main article image styling and border */
-.article img{
+.introImg{
     width:35%;
-    /* margin:2.45% 2.45% 2.45% 2.45%; */
+    margin: 5px;
     border:solid black;
     border-radius: 180px;
 }
