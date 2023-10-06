@@ -7,7 +7,7 @@
     font-family:Arial;
     color:black;
     /* Boarder is for aligning items and testing comment out to see boarders */
-    /* border:solid white; */
+    border:solid black;
 }
 
 /* Adding the method of content alignment and additional padding for this div */
@@ -104,7 +104,7 @@ nav a:hover{
 /* Used border as secondary divider for content */
 .test1{
     width:100%;
-    height:220px;
+    height:300px;
     border-bottom:solid black
 }
 
@@ -151,10 +151,10 @@ nav a:hover{
 /* Card setup and spacing with padding for photo float */
 .card1{
     width:27%;
-    height:200px;
-    display:inline-block;
-    padding:2%;
+    height:100%;
 }
+
+
 
 /* Card h3 styling and margin for spacing with p tag content */
 .card1 h3{
@@ -165,12 +165,13 @@ nav a:hover{
 /* Card image border and width for card placement */
 .card1 img{
     border:solid black;
+    margin-bottom: 2%;
     width:100%
 }
 
 /* Card img hover with smooth transition */
 .card1 img:hover{
-    border:solid white;
+    border:solid red;
     transition-duration:1s;
 }
 
