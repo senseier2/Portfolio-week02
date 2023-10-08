@@ -5,6 +5,7 @@
     margin: 0px;
     padding:0px;
     font-family:Arial;
+    font-size: 1.4rem;
     color:black;
     /* Boarder is for aligning items and testing comment out to see boarders */
     /* border:solid black; */
@@ -96,7 +97,7 @@ nav a:hover{
 
 /* Article p tag styling font size testing left in place as there were no issues */
 .article p{
-    font-size:1rem;
+    /* font-size:1rem; */
     margin: 0 2.45% 2% 2.45%;
 }
 
