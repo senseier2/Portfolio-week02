@@ -5,7 +5,7 @@
     margin: 0px;
     padding:0px;
     font-family:Arial;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     color:black;
     /* Boarder is for aligning items and testing comment out to see boarders */
     /* border:solid black; */
@@ -141,8 +141,9 @@ nav a:hover{
 .card-base{
     display:flex;
     Width:100%;
-    height:350px;
-    overflow:auto;
+    height: 400px;
+    padding: 10px 0 10px 0;
+    overflow: auto;
     justify-content:space-around;
     flex-wrap:wrap;
     border-bottom:solid black;
@@ -153,19 +154,25 @@ nav a:hover{
 .card1{
     width:27%;
     height:100%;
+    padding:10px;
+    border: 1px solid black;
+    border-radius: 15px;
 }
 
-
+.card1 p {
+    font-size: 1rem;
+}
 
 /* Card h3 styling and margin for spacing with p tag content */
 .card1 h3{
     margin-bottom:2%;
     font-weight:bold;
+    background-color: grey;
 }
 
 /* Card image border and width for card placement */
 .card1 img{
-    border:solid black;
+    /* border:solid black; */
     margin-bottom: 2%;
     width:100%
 }
