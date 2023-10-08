@@ -129,6 +129,7 @@ nav a:hover{
     float:right;
     width:50%;
     border:solid red;
+    border-radius: 15px;
 }
 
 /* Photo float image hover styling */
@@ -157,6 +158,7 @@ nav a:hover{
     padding:10px;
     border: 1px solid black;
     border-radius: 15px;
+    box-shadow: 5px 5px 5px grey;
 }
 
 .card1 p {
