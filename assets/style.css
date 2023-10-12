@@ -61,11 +61,6 @@ nav li{
     text-decoration: none;
 }
 
-/* Styling for navigation anchor tags */
-nav a{
-    color:black;
-}
-
 /* Hover styling for navigation a tags with smooth transition */
 nav a:hover{
     color:black;
