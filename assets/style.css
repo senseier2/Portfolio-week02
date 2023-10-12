@@ -34,10 +34,14 @@ header h1{
     margin-left:1%;
 }
 
+#aboutme h2 {
+    color: black;
+}
+
 /* Red letter styling customization for main header "Name" */
 .redletter {
     color:red;
-    background:rgb(50, 50, 50, 50);
+    background-color: transparent;
 }
 
 /* Red letter styling for the rest of the website "span" */
@@ -83,11 +87,12 @@ nav a:hover{
     margin: 5px;
     border:solid black;
     border-radius: 180px;
+    box-shadow: 2px 3px 4px black;
 }
 
 /* Article image hover smooth transition */
 .article img:hover{
-    border:solid white;
+    border: solid red;
     transition-duration:1s;
 }
 
@@ -131,8 +136,9 @@ nav a:hover{
     margin:0% 7.45% 0 2.45%;
     float:right;
     width:50%;
-    border:solid red;
+    border:solid black;
     border-radius: 15px;
+    box-shadow: 2px 3px 4px black;
 }
 
 /* Photo float image hover styling */
