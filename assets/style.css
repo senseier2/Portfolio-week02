@@ -20,7 +20,8 @@ article{
 /* Dividing line for section and background color for header section */
 header{
     background-color:rgb(50, 50, 50);
-    border-bottom:solid black;
+    border-bottom: 1px solid black;
+    box-shadow: 0px 2px 4px black;
     width:100%;
 }
 
@@ -52,9 +53,11 @@ header h1{
 
 /* Navigation items setup font color and styling */
 nav li{
+    display:block;
     font-family:Arial, Helvetica, sans-serif;
     Font-Size:1.6rem;
     font-weight:bold; 
+    background-color:transparent;
     float: right;
     margin-right:10px;
     text-decoration: none;
@@ -62,8 +65,8 @@ nav li{
 
 /* Hover styling for navigation a tags with smooth transition */
 nav a:hover{
-    color:black;
-    transition-duration:1s;
+    color:red;
+    transition-duration:.3s;
 }
 
 
