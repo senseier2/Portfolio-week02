@@ -239,6 +239,10 @@ footer:hover{
     transition-duration:1s;
 }
 
+.footerBot {
+    border-top: solid black;
+}
+
 /* Redshift media query for smaller devices (may change colors for accessibility after testing) */
 @media only screen and (max-width: 972px) {
     * {
