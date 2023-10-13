@@ -151,7 +151,7 @@ nav a:hover{
 .card-base{
     display:flex;
     Width:100%;
-    height: 350px;
+    /* height: 350px; removing styling as this causes a weird clipping issue.*/
     padding: 10px 0 10px 0;
     overflow: auto;
     justify-content:space-around;
