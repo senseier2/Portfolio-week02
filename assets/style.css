@@ -195,10 +195,10 @@ nav a:hover{
 }
 
 /* Card img hover with smooth transition */
-.card1 img:hover{
+/* .card1 img:hover{
     border:solid red;
     transition-duration:1s;
-}
+} */
 
 /* Flexbox for contact links and spacing */
 .contactlinks{
