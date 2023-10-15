@@ -39,7 +39,7 @@ header h1{
 }
 
 /* Red letter styling customization for main header "Name" */
-.redletter {
+.redletter .redletter2 {
     color:red;
     background-color: transparent;
 }
@@ -47,6 +47,7 @@ header h1{
 /* Red letter styling for the rest of the website "span" */
 .redletter2{
     color:red;
+    background-color: transparent;
 }
 
 .redletterHead {
@@ -165,9 +166,14 @@ nav a:hover{
     width:27%;
     height:100%;
     padding:10px;
-    border: 1px solid black;
+    border: solid black;
     border-radius: 15px;
     box-shadow: 5px 5px 5px grey;
+}
+
+.card1:hover {
+    border: solid red;
+    transition: .3s;
 }
 
 .card1 p {
@@ -178,7 +184,7 @@ nav a:hover{
 .card1 h3{
     margin-bottom:2%;
     font-weight:bold;
-    background-color: grey;
+    border-bottom: 1px solid black;
 }
 
 /* Card image border and width for card placement */
@@ -198,7 +204,9 @@ nav a:hover{
 .contactlinks{
     display:flex;
     justify-content:space-evenly;
-
+    padding: 10px;
+    margin-top: 10px;
+    list-style-type: none;
 }
 
 /* Contact links hover styling and smooth transition */
@@ -212,19 +220,18 @@ nav a:hover{
     display:block;
     width:100%;
     height:200px;
-    padding:2%;
+    padding: 5px;
     text-align:center;
-    border-bottom:solid black;
 }
 
 /* Contacts h2 margin for spacing with p tag content */
 .ContactMe h2{
-    margin-bottom:2.45%
+    margin-bottom: 5px;
 }
 
 /* Contacts p tag margin for spacing  */
 .ContactMe P{
-    Margin-bottom:2.45%
+    Margin-bottom: 5px;
 }
 
 /* Footer font styling "size" and alignment "centered" */
