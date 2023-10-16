@@ -39,13 +39,7 @@ header h1{
 }
 
 /* Red letter styling customization for main header "Name" */
-.redletter .redletter2 {
-    color:red;
-    background-color: transparent;
-}
-
-/* Red letter styling for the rest of the website "span" */
-.redletter2{
+.redletter {
     color:red;
     background-color: transparent;
 }
@@ -101,12 +95,10 @@ nav a:hover{
 .article h2{
     color:white;
     margin: 2% 2.45% 0% 2.45%;
-    /* display:inline-block; */
 }
 
 /* Article p tag styling font size testing left in place as there were no issues */
 .article p{
-    /* font-size:1rem; */
     margin: 0 2.45% 2% 2.45%;
 }
 
@@ -243,7 +235,7 @@ footer {
 /* Footer hover styling and smooth transition */
 footer:hover{
     color:red;
-    transition-duration:1s;
+    transition-duration:.3s;
 }
 
 .footerBot {
