@@ -167,7 +167,7 @@ nav a:hover{
 .card1:hover {
     border: solid red;
     box-shadow: 5px 5px 5px grey;
-    transition: .3s;
+    transition: .4s;
 }
 
 /* card paragraph style  */
