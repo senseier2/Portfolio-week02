@@ -1,6 +1,6 @@
 /* Basic Styling for page allows for overall padding and font family*/
 * {
-    background-color:white;
+    background-color:F6F6F6;
     box-sizing:border-box;
     margin: 0px;
     padding:0px;
@@ -18,7 +18,7 @@ article{
 
 /* Dividing line for section and background color for header section */
 header{
-    background-color:rgb(50, 50, 50);
+    background-color:#267491;
     border-bottom: 1px solid black;
     box-shadow: 0px 2px 4px black;
     width:100%;
@@ -26,7 +26,7 @@ header{
 
 /* Name general font formatting and background color */
 header h1{
-    background-color:rgb(50, 50, 50);
+    background-color:#267491;
     font-size:72px;
     height:100px;
     color:White;
@@ -34,15 +34,15 @@ header h1{
 }
 
 /* about me title style for h2 */
-#aboutme h2 {
-    color: black;
+div #aboutme h2 {
+    color: #267491;
 }
 
 /* Red letter styling customization for main header "Name" */
-.redletter {
+/* .redletter {
     color:red;
     background-color: transparent;
-}
+} */
 
 /* Red letter styling for heading */
 .redletterHead {
@@ -50,6 +50,7 @@ header h1{
     background-color: rgb(50, 50, 50);
     color: red;
 }
+
 
 /* Navigation items setup font color and styling */
 nav li{
@@ -73,7 +74,7 @@ nav a:hover{
 /* ID used to locate this div when clicked in the navigation */
 /* Also used to provide the red divider */
 #aboutme{
-    border-bottom: solid black;
+    /* border-bottom: solid black; */
     color: black;
 }
 
@@ -81,9 +82,8 @@ nav a:hover{
 .introImg{
     width:35%;
     margin: 5px;
-    border:solid black;
-    border-radius: 180px;
-    box-shadow: 2px 3px 4px black;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px grey;
 }
 
 /* Article image hover smooth transition */
@@ -103,12 +103,18 @@ nav a:hover{
     margin: 0 2.45% 2% 2.45%;
 }
 
+#portfoliolink a{
+    color:##333333;
+}
+
 /* Testing flex properties on the photo float created */
 /* Used border as secondary divider for content */
 .test1{
     width:100%;
     height:300px;
-    border-bottom:solid black
+    padding-top:26px;
+    background-color:#C1D2DB;
+    /* border-bottom:solid black */
 }
 
 /* Flexbox setup for Photo float div formatting added here */
@@ -157,16 +163,14 @@ nav a:hover{
 .card1{
     width:27%;
     height:400px;
-    padding:10px;
-    border: solid black;
+    padding:10px;box-shadow: 1px 3px 5px grey;
     border-radius: 15px;
     
 }
 
 /* card hover state red shift and animation */
 .card1:hover {
-    border: solid red;
-    box-shadow: 5px 5px 5px grey;
+    box-shadow: 1px 5px 5px #333333;
     transition: .4s;
 }
 
@@ -205,7 +209,7 @@ nav a:hover{
 /* Contact links hover styling and smooth transition */
 .contactlinks a:hover{
     color:red;
-    transition-duration:.3s;
+    transition-duration:.2s;
 }
 
 /* Contact card overall styling and base font information  */
@@ -235,7 +239,7 @@ footer {
 
 /* Footer hover styling and smooth transition */
 footer:hover{
-    color:red;
+    color:#C1D2DB;
     transition-duration:.3s;
 }
 
@@ -247,7 +251,5 @@ footer:hover{
 /* Redshift media query for smaller devices (may change colors for accessibility after testing) */
 @media only screen and (max-width: 972px) {
     * {
-      background-color:darkred;
-      transition-duration: 3s;
     }
   }
