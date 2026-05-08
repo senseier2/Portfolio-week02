@@ -270,6 +270,11 @@ footer {
     color:#267491;
 }
 
+div.ContactMe h2{
+    color:#267491;
+    padding-bottom: 10px;
+}
+
 /* Footer hover styling and smooth transition */
 ul.contactlinks a:hover{
     color:#267491;
