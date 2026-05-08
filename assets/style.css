@@ -141,6 +141,7 @@ div.photocontent p{
     /* border-bottom:solid black */
 }
 
+
 /* Flexbox setup for Photo float div formatting added here */
 .photocontent{
     display:flexbox;
@@ -162,7 +163,12 @@ div.photocontent p{
     width:50%;
     border:solid 1px #267491;
     border-radius: 10px;
-    box-shadow: 2px 2px 4px #333333;
+    box-shadow: 2px 2px 4px #000000;
+}
+
+.test1 img:hover{
+    box-shadow: 4px 4px 10px #000000;
+    transition-duration: 1s;
 }
 
 /* Photo float image hover styling */
@@ -200,6 +206,7 @@ div.photocontent p{
 /* card hover state red shift and animation */
 .card1:hover {
     box-shadow: 3px 5px 5px #333333;
+    transition-duration: .5s;
     /* transform: translateY(-5px); */
 }
 
