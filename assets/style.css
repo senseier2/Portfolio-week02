@@ -84,7 +84,7 @@ nav a:hover{
 /* Main article image styling and border */
 .introImg{
     width:35%;
-    margin: 40px;
+    /* margin: 40px; */
     border-radius: 10px;
     box-shadow: 2px 2px 3px grey;
 }
@@ -96,7 +96,6 @@ nav a:hover{
 /* Article header styling and margin */
 .article h2{
     color:white;
-    margin: 2% 2.45% 0% 2.45%;
 }
 
 /* Article p tag styling font size testing left in place as there were no issues */
@@ -163,7 +162,8 @@ div.photocontent p{
 .card-base{
     display:flex;
     Width:100%;
-    padding: 40px 0 40px 0;
+    padding: 30px 0 30px 0;
+    margin: 20px 0 20px 0;
     overflow: auto;
     justify-content:space-around;
     flex-wrap:wrap;
@@ -174,22 +174,25 @@ div.photocontent p{
 /* Card setup and spacing with padding for photo float */
 .card1{
     width:27%;
-    height:400px;
+    height:auto;
     padding:20px;
+    margin: 10px;
     box-shadow: 1px 3px 5px grey;
     border-radius: 10px;
     background-color:#dbe2e6;
+    /*Define the transition: property, duration, and easing*/
+    /* transition: transform 0.2s ease-in-out; */
 }
 
 /* card hover state red shift and animation */
 .card1:hover {
-    box-shadow: 1px 5px 5px #333333;
-    transition: .4s;
+    box-shadow: 3px 5px 5px #333333;
+    /* transform: translateY(-5px); */
 }
 
 /* card paragraph style  */
 .card1 p {
-    font-size: .9rem;
+    font-size: .6em;
 }
 
 .card1 a {
@@ -199,9 +202,9 @@ div.photocontent p{
 
 /* Card h3 styling and margin for spacing with p tag content */
 .card1 h3{
-    margin-bottom:2%;
-    font-weight:bold;
-    border-bottom: 1px solid #267491;
+    color: #267491;
+    margin-bottom: 10px;
+    border-bottom: .5px solid #267491;
 }
 
 /* Card image border and width for card placement */
