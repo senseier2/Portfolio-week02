@@ -277,7 +277,6 @@ div.ContactMe h2{
 
 /* Footer hover styling and smooth transition */
 ul.contactlinks a:hover{
-    color:#267491;
     transition-duration:.2s;
 }
 
