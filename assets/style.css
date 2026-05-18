@@ -161,7 +161,7 @@ div.photocontent p{
     margin:0% 7.45% 0 2.45%;
     float:right;
     width:50%;
-    border:solid 1px #267491;
+    /* border:solid 1px #267491; */
     border-radius: 10px;
     box-shadow: 2px 2px 4px #000000;
 }
@@ -197,6 +197,7 @@ div.photocontent p{
     padding:20px;
     margin: 10px;
     box-shadow: 1px 3px 5px grey;
+    border: 1px solid #267491;
     border-radius: 10px;
     background-color:#dbe2e6;
     /*Define the transition: property, duration, and easing*/
@@ -275,6 +276,7 @@ footer {
     /* height: 3rem; */
     text-align:center;
     color:#267491;
+    border-top: 1px solid #267491;
 }
 
 div.ContactMe h2{
