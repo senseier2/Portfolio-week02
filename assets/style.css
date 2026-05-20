@@ -7,8 +7,6 @@
     font-family:Arial;
     font-size: 1.3rem;
     color:black;
-    /* Boarder is for aligning items and testing comment out to see boarders */
-    /* border:solid black; */
 }
 
 p{
@@ -27,7 +25,6 @@ header{
     height: 140px;
     background-color:#267491;
     border-bottom: 1px solid black;
-    /* box-shadow: 0px 2px 4px black; */
     width:100%;
 }
 
@@ -35,7 +32,6 @@ header{
 header h1{
     background-color:#267491;
     font-size:72px;
-    /* height:100px; */
     color:#F6F6F6;
     padding: 10px 0 10px 0;
     margin-left:3%;
@@ -46,17 +42,10 @@ div #aboutme h2 {
     color: #267491;
 }
 
-/* Red letter styling customization for main header "Name" */
-/* .redletter {
-    color:red;
-    background-color: transparent;
-} */
-
 /* Red letter styling for heading */
 .redletterHead {
     font-size: 72px;
     background-color: rgb(50, 50, 50);
-    /* color: red; */
 }
 
 
@@ -87,23 +76,16 @@ nav a:hover{
 
 
 /* ID used to locate this div when clicked in the navigation */
-/* Also used to provide the red divider */
 #aboutme{
-    /* border-bottom: solid black; */
     color: black;
 }
 
 /* Main article image styling and border */
 .introImg{
     width:35%;
-    /* margin: 40px; */
     border-radius: 15px;
     box-shadow: 2px 2px 3px grey;
 }
-
-/* Article image hover smooth transition */
-/* .article img:hover{
-} */
 
 /* Article header styling and margin */
 .article h2{
@@ -131,14 +113,12 @@ div.photocontent p{
 }
 
 /* Testing flex properties on the photo float created */
-/* Used border as secondary divider for content */
 .test1{
     width:100%;
     height:400px;
     padding-top:26px;
     border-radius: 10px;
     background-color:#333333;
-    /* border-bottom:solid black */
 }
 
 
@@ -161,7 +141,6 @@ div.photocontent p{
     margin:0% 7.45% 0 2.45%;
     float:right;
     width:50%;
-    /* border:solid 1px #267491; */
     border-radius: 10px;
     box-shadow: 2px 2px 4px #000000;
 }
@@ -170,12 +149,6 @@ div.photocontent p{
     box-shadow: 4px 4px 10px #000000;
     transition-duration: 1s;
 }
-
-/* Photo float image hover styling */
-/* .test1 img:hover{
-    color:solid white;
-    transition-duration: 1s;
-} */
 
 /* Card flexbox for testing alignment properties */
 .card-base{
@@ -186,8 +159,6 @@ div.photocontent p{
     overflow: auto;
     justify-content:space-around;
     flex-wrap:wrap;
-    /* border-bottom:solid black; */
-    
 }
 
 /* Card setup and spacing with padding for photo float */
@@ -200,15 +171,12 @@ div.photocontent p{
     border: 1px solid #267491;
     border-radius: 10px;
     background-color:#dbe2e6;
-    /*Define the transition: property, duration, and easing*/
-    /* transition: transform 0.2s ease-in-out; */
 }
 
 /* card hover state red shift and animation */
 .card1:hover {
     box-shadow: 3px 5px 5px #333333;
     transition-duration: .5s;
-    /* transform: translateY(-5px); */
 }
 
 /* card paragraph style  */
@@ -230,7 +198,6 @@ div.photocontent p{
 
 /* Card image border and width for card placement */
 .card1 a img{
-    /* border:solid black; */
     margin-bottom: 2%;
     border-radius: 10px;
     width:100%;
@@ -273,7 +240,6 @@ div.photocontent p{
 
 /* Footer font styling "size" and alignment "centered" */
 footer {
-    /* height: 3rem; */
     text-align:center;
     color:#267491;
     border-top: 1px solid #267491;
@@ -296,13 +262,5 @@ ul.contactlinks a:hover{
 }
 
 .footerBot h2{
-    /* padding: 6px 0 6px 0; */
     color:#F6F6F6
 }
-
-/* Redshift media query for smaller devices (may change colors for accessibility after testing) */
-/* @media only screen and (max-width: 972px) {
-     {
-        
-    }
-  } */
