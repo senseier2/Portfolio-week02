@@ -9,6 +9,7 @@
     color:black;
 }
 
+/* Default paragraph font size */
 p{
     font-size: .6em;
 }
@@ -61,6 +62,7 @@ nav li{
     text-decoration: none;
 }
 
+/* Navigation items a tag color and styling adjustments */
 nav a{
     color:#C1D2DB;
     text-decoration: none;
@@ -96,6 +98,7 @@ nav a:hover{
 .article p{
     margin: 0 2.45% 2% 2.45%;
 }
+
 
 #portfoliolink a{
     color:#C1D2DB;
@@ -184,6 +187,7 @@ div.photocontent p{
     font-size: .6em;
 }
 
+/* card link style */
 .card1 a {
     font-size: 1em;
     color: #267491;
@@ -214,7 +218,6 @@ div.photocontent p{
 
 /* Contact links hover styling and smooth transition */
 .contactlinks a:hover{
-    color:red;
     transition-duration:.2s;
 }
 
@@ -251,9 +254,10 @@ div.ContactMe h2{
 }
 
 /* Footer hover styling and smooth transition */
-ul.contactlinks a:hover{
+/* ul.contactlinks li a:hover{
+    animation: bounce;
     transition-duration:.2s;
-}
+} */
 
 /* Footer bottom div styling and seperator */
 .footerBot p{
